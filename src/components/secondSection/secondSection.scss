@@ -1,0 +1,116 @@
+.secondsection{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding-top: 120px ;
+    padding-bottom: 120px;
+    background-color: #ffff;
+    justify-content: center;
+
+    .secondsection-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .firstcard{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            width: 350px;
+            height: 300px;
+            border-radius: 10%;
+            background-color: #FFC000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            .cafe{
+                font-size: 300%;
+            }
+            span{
+                font-weight: 300;
+                font-size: 200%;
+               margin-left: 10px;
+            
+            }
+            
+
+        }
+
+        .secondcard{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            width: 350px;
+            height: 300px;
+            border-radius: 10%;
+            background-color: #FFC000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+
+            .camera{
+                font-size: 300%;
+
+            }
+
+            span{
+                font-weight: 300;
+                font-size: 200%;
+                margin-left: 10px;
+                
+            }
+        }
+
+        .thirdcard{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            width: 350px;
+            height: 300px;
+            border-radius: 10%;
+            background-color: #FFC000;
+            display: flex;
+            align-items: center;
+            
+            
+
+            .school{
+                font-size: 300%;
+            }
+
+            span{
+                font-weight: 300;
+                font-size: 200%;
+                margin-left: 10px;
+                
+            }
+        }
+
+        .fourthcard{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            width: 350px;
+            height: 300px;
+            border-radius: 10%;
+            background-color: #FFC000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .bed{
+                font-size: 300%;
+            }
+
+            span{
+                font-weight: 300;
+                font-size: 200%;
+                margin-left: 10px;
+                
+            }
+        }
+
+    }
+}

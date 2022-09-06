@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    background-color: #fff;
+    color: #54635A;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    justify-content: flex-start;
+    position: fixed;
+    top:0;
+    
+    .telephone-container{
+        margin: 0px 10px;
+        .telephone{
+            font-weight: bold;
+            font-size: 15px;
+            margin: 0px 5px;
+        }
+    }
+
+    .mail-container{
+        margin: 0px 10px;
+        .mail{
+            font-weight: bold;
+            font-size: 14px;
+            margin: 0px 5px;
+        }
+    }
+}

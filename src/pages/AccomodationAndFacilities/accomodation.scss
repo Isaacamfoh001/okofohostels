@@ -1,0 +1,135 @@
+.container{
+    display: flex;
+    background-color: #FFC000;
+    width: 100%;
+    margin-top: 150px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+    .body{
+        display: flex;
+        padding: 100px 0px;
+        font-weight: 500;
+        font-size: 50px;
+        
+    }
+
+   
+}
+
+.container2{
+    display: flex;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(255, 255, 255);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    width: 100%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    .body2{
+        display: flex;
+        padding: 100px 0px;
+        font-weight: 300;
+        font-size: 45px;  
+    } 
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+    
+   
+
+    .water{
+        padding: 60px 100px;
+        border-radius: 5%;
+        background-color:#FFC000;
+        margin: 0px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .waterIcon{
+            font-size:xx-large;
+            height:80px
+        }
+
+        span{
+            font-size: 17px;
+        }
+    }
+
+    .electricity{
+        padding: 60px 100px;
+        border-radius: 5%;
+        background-color:#FFC000;
+        margin: 0px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .powerIcon{
+            font-size:xx-large;
+            height:80px
+            
+        }
+
+        span{
+            font-size: 17px;
+        }
+    }
+
+    .cleaningServices{
+        padding: 60px 100px;
+        border-radius: 5%;
+        background-color:#FFC000;
+        margin: 0px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .cleaningIcon{
+            font-size:xx-large;
+            height:80px
+            
+        }
+
+        span{
+            font-size: 17px;
+        }
+    }
+
+    .security{
+        padding: 60px 100px;
+        border-radius: 5%;
+        background-color:#FFC000;
+        margin: 0px 10px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .securityIcon{
+            font-size:xx-large;
+            height:80px
+            
+        }
+
+        span{
+            font-size: 17px;
+        }
+    }
+    
+    
+    
+
+
+
+
+
+}

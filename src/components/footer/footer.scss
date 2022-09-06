@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    font-size: 14px;
+    // background-color: #515350;
+    background-color: #ffff;
+
+    .footerwrapper{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        align-items: center;
+
+        .fList{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .fListItem{
+            color: #515350;
+            margin-bottom: 10px;
+            cursor:pointer;
+        }
+        
+    }
+    .copyright{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        background-color: gray;
+        padding: 20px 0px;
+        width: 100%;
+
+    }
+}
+
+
+

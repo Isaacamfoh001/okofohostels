@@ -1,0 +1,30 @@
+.registerHeader{
+    margin: 100px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.registerItem{
+    background-color:  rgba(240, 80, 51);
+    padding: 30px 100px;
+    border-radius: 30px;
+    
+}
+
+.registerBtn{
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}

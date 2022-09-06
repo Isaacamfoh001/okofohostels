@@ -1,0 +1,97 @@
+.oneInARoomSection{
+    width: fit-content;
+
+    .head{
+        text-align: center;
+        .title, .desc{
+            color: #666666;
+
+        }
+        
+    }
+
+    .oneInARoomSection-wrapper{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 60px 0px;
+        background-color: #AAAAAA14;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+       
+        flex-wrap: wrap;
+       
+
+        .info-section{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            text-align: center;
+            
+
+            // .title{
+            //     // text-align: center;
+                
+            // }
+            .desc{
+                font-weight: 300;
+                font-size: 16px;
+                // text-align: center;
+            }
+            .pricedetails{
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .price{
+                font-weight: 300;
+                font-size: 16px;
+            }
+            .iconsection{
+                display: flex;
+                // margin-top: 50px;
+                justify-content: center;
+                padding: 50px 30px;
+                color: #F47D31;
+                
+               
+                .book-this-room{
+                    font-size: 20px;
+                    font-weight: 900;
+                    margin-right: 10px;
+                    
+
+                    .book{
+                        margin-left: 10px;
+
+                    }
+                }
+                .request-a-visit{
+                    font-size: 20px;
+                    font-weight: 900;
+                    .request{
+                        margin-left: 10px;
+                    }
+    
+                }
+            }
+            
+        }
+
+        .image-section{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+            .oneinaroom{
+               object-fit: contain;
+               width: fit-content;
+               
+
+            }
+        }
+    }
+
+}
